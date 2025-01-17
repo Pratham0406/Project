@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; 
+    height: 100vh;
+    background-image: linear-gradient(
+        to right top,
+        rgba(5, 25, 55, 0.9),
+        rgba(0, 77, 122, 0.9),
+        rgba(0, 135, 147, 0.9),
+        rgba(0, 191, 114, 0.9),
+        rgba(168, 235, 18, 0.9)
+      );
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-color: #000000;
+    border-width: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.yatra-one-regular {
+    font-family: "Yatra One", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+form input, form button { 
+    width: 97%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 2px solid #ddd; 
+    border-radius: 4px; }
+
+form button {
+    background: #3793f7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #87c1ff;
+}
+
+form button:hover.stars{
+    display: block;
+    filter:drop-shadow(0 0 10px);
+    -webkit-filter:drop-shadow(0 0 10px);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+}

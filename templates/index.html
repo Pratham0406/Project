@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packing Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="yatra-one-regular">Packing Assistant</h1>
+        <form action="/get_packing_list" method="POST" class="merriweather-light">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+
+            <label for="travel_dates">Travel Dates:</label>
+            <input type="text" id="travel_dates" name="travel_dates" placeholder="e.g. 12-01-2025" required>
+
+            <label for="activities">Activities (comma-separated):</label>
+            <input type="text" id="activities" name="activities" placeholder="e.g., hiking, beach">
+
+            <button type="submit">Get Packing List</button>
+        </form>
+    </div>
+</body>
+</html>
