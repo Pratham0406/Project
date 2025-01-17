@@ -4,11 +4,10 @@ body {
     height: 100vh;
     background-image: linear-gradient(
         to right top,
-        rgba(5, 25, 55, 0.9),
-        rgba(0, 77, 122, 0.9),
-        rgba(0, 135, 147, 0.9),
-        rgba(0, 191, 114, 0.9),
-        rgba(168, 235, 18, 0.9)
+        #15B392,
+        #54C392,
+        #73EC8B,
+        #D2FF72
       );
     background-size: cover;
     margin: 0;
@@ -19,7 +18,7 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0.507);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-color: #000000;
@@ -29,6 +28,20 @@ body {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+.text{
+    font-weight: bold;
+    background: linear-gradient(90deg , #ff007f , #0075ff , #00ff7f);
+    background-size: 200%;
+    background-clip: text;
+    color: transparent;
+    animation: gradientMove 5s infinite linear;
+}
+@keyframes gradientMove{
+    0% {background-position: 0% 50%; }
+    100% {background-position: 100% 50%; }
+}
+
 
 .merriweather-light {
     font-family: "Merriweather", serif;
@@ -41,7 +54,7 @@ h1 {
     color: #333;
 }
 
-.yatra-one-regular {
+.gradient-text {
     font-family: "Yatra One", serif;
     font-weight: 800;
     font-style: normal;
@@ -68,7 +81,7 @@ form button {
 }
 
 form button:hover {
-    background: #87c1ff;
+    background: #4fa2fc;
 }
 
 form button:hover.stars{
