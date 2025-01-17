@@ -19,10 +19,10 @@ body {
     margin: 50px auto;
     padding: 20px;
     background: rgba(255, 255, 255, 0.507);
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-color: #000000;
-    border-width: 10px;
+    border-width: 15px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -30,6 +30,9 @@ body {
 }
 
 .text{
+    font-family: "Calistoga", serif;
+    font-weight: 100px;
+    font-style: normal;
     font-weight: bold;
     background: linear-gradient(90deg , #ff007f , #0075ff , #00ff7f);
     background-size: 200%;
@@ -41,6 +44,8 @@ body {
     0% {background-position: 0% 50%; }
     100% {background-position: 100% 50%; }
 }
+
+
 
 
 .merriweather-light {
@@ -70,7 +75,7 @@ form input, form button {
     width: 97%; 
     padding: 10px; 
     margin-bottom: 20px; 
-    border: 2px solid #ddd; 
+    border: 3px solid #ddd; 
     border-radius: 4px; }
 
 form button {
