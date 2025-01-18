@@ -18,7 +18,7 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.507);
+    background: rgba(255, 255, 255, 0.692);
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-color: #000000;
@@ -50,7 +50,7 @@ body {
 
 .merriweather-light {
     font-family: "Merriweather", serif;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
   }
 
