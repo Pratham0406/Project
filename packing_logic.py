@@ -27,7 +27,7 @@ def generate_packing_list(destination, travel_dates, activities):
     elif 10 <= temp <= 20:
         packing_list.extend(["Light jacket", "Jeans", "Long-sleeve shirts"])
     else:
-        packing_list.extend(["T-shirts", "Shorts", "Sunscreen"])
+        packing_list.extend(["T-shirts", "Shorts", "Sunscreen","cap"])
     
     # Add items based on activities
     if "hiking" in activities:
