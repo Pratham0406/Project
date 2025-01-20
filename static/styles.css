@@ -80,6 +80,7 @@ form input, form button {
 
 form button {
     background: #3793f7;
+    margin-top: 8px;
     color: white;
     border: none;
     cursor: pointer;
@@ -89,11 +90,7 @@ form button:hover {
     background: #4fa2fc;
 }
 
-form button:hover.stars{
-    display: block;
-    filter:drop-shadow(0 0 10px);
-    -webkit-filter:drop-shadow(0 0 10px);
-}
+
 ul {
     list-style: none;
     padding: 0;
