@@ -10,9 +10,9 @@ def home():
 @app.route('/get_packing_list', methods=['POST'])
 def get_packing_list():
     destination = request.form['destination']
-    travel_dates = request.form['travel_dates']
+    date = request.form.get("date")
     activities = request.form['activities'].split(',')  # Input as comma-separated
-    packing_list = packing_logic.generate_packing_list(destination, travel_dates, activities)
+    packing_list = packing_logic.generate_packing_list(destination, date, activities)
     return render_template('result.html', packing_list=packing_list)
 
 if __name__ == '__main__':
