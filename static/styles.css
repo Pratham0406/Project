@@ -124,6 +124,14 @@ body {
   border-color: #fff;
 }
 
+.logo {
+  position: absolute;
+  top: 10px;  /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  width: 120px; /* Adjust size */
+  height: auto;
+}
+
 h1{
     font-size: 42px;
     text-align: center;
