@@ -130,9 +130,9 @@ body {
 
 .logo {
   position: absolute;
-  top: 5px;  /* Distance from the top */
-  left: 15px; /* Distance from the right */
-  width: 250px; /* Adjust size */
+  top: 0px;
+  left: 0px; /* Distance from the right */
+  width: 300px; /* Adjust size */
   height: auto;
 }
 
