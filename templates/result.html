@@ -6,14 +6,14 @@
     <title>Packora</title>
     <link rel="stylesheet" href="/static/styles.css">
     <link rel="shortcut icon" href="\static\images\teamLogo.jpg" type="image/x-icon">
-    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="form-container">
         <h1 class="yatra-one-regular">Your Packing List</h1>
         <ul>
             {% for item in packing_list %}
-            <li>{{ item }}</li>
+            <li><input type="checkbox" id="{{ item }}" name="packedItems">
+                <label for="{{ item }}">{{ item }}</label></li>
             {% endfor %}
         </ul>
         <button>
@@ -21,19 +21,6 @@
         </button>
     </div>
     
-    <div class="container">
-      <h1>Weather Forecast</h1>
-      <div class="input-section">
-          <input type="text" id="location" placeholder="Enter location" required>
-          <input type="date" id="date" required>
-          <button onclick="getWeather()">Get Forecast</button>
-      </div>
-      <div class="weather-result" id="weatherResult">
-          <h2 id="city"></h2>
-          <p id="dateDisplay"></p>
-          <p id="temperature"></p>
-          <p id="description"></p>
-      </div>
-  </div>
+    
 </body>
 </html>
