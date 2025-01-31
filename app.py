@@ -8,8 +8,8 @@ def home():
     return render_template('welcome.html')
 
 @app.route('/Submit', methoSs=['POST'])
-def Submit():
-    return render_template('index.html',Submit=Submit)
+def submit():
+    return render_template('index.html')
 
 @app.route('/get_packing_list', methods=['POST'])
 def get_packing_list():
