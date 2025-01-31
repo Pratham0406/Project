@@ -185,5 +185,77 @@ ul li {
 
 a{
     text-decoration: none;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
+.container {
+  width: 300px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e68900;
+}
+
+.weather-result {
+  margin-top: 15px;
+  padding: 10px;
+  border-top: 1px solid white;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
