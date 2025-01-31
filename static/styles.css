@@ -2,7 +2,11 @@ body {
   font-family: Arial, sans-serif;
   background-color: #000; 
   height: 100vh;
- 
+
+  background-image: url('https://img.freepik.com/premium-photo/outfit-traveler-black-background-travel-concept_146508-661.jpg?w=740');
+  background-repeat: no-repeat; 
+  background-size: 100% 80%;
+  
   background-size: cover;
   margin: 0;
   padding: 0;
